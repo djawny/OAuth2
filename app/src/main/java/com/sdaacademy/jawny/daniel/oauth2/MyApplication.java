@@ -10,7 +10,6 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        RxSocialConnect.register(this, "encryption key")
-                .using(new GsonSpeaker());
+        RxSocialConnect.register(this, "encryption key").using(new GsonSpeaker());
     }
 }
