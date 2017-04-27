@@ -1,4 +1,4 @@
-package com.sdaacademy.jawny.daniel.oauth2;
+package com.sdaacademy.jawny.daniel.oauth2.application;
 
 import android.app.Application;
 
