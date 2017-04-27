@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">OAuth2</string>
+    <string name="login">Zaloguj</string>
+    <string name="user_id">User Id</string>
 </resources>

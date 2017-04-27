@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Zaloguj" />
+        android:text="@string/login" />
 
     <TextView
         android:id="@+id/user_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:hint="User Id"
+        android:hint="@string/user_id"
         android:padding="8dp" />
 
     <ImageView

@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             JSONObject jsonObject = new JSONObject(text);
             String id = jsonObject.optString("id");
             if (!id.isEmpty()) {
-                mUserId.setText("ID: " + id);
+                mUserId.setText(String.format("ID: %s", id));
                 String url = jsonObject.optString("avatar_url");
                 if (!url.isEmpty()) {
                     Picasso.with(this).load(url).into(mAvatar);
